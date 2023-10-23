@@ -1,4 +1,42 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    /* 320px is the baseline for mobile width*/
+    max-width: 320px;
+    margin: 30px auto;
+    border: 3px solid #111111;
+    border-radius: 12px;
+}
+
+.karat-image {
+    margin: 0 auto;
+    max-width: 160px;
+}
+
+#input-field {
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    margin: 12px 24px;
+    padding: 6px;
+    background-color: #dedede;
+    font-family: 'Rubik', sans-serif;
+}
+
+#add-button {
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0px 24px 12px;
+    padding: 6px;
+    background-color: #bb5044;
+    color: #eeeeee;
+    font-family: 'Rubik', sans-serif;
 }
