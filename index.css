@@ -49,10 +49,6 @@ h1 {
     font-family: 'Rubik', sans-serif;
     cursor: pointer;
 }
-#add-button:hover {
-    transition: background-color 0.2s ease-out 100ms;
-    background-color: #df766a;
-}
 
 #shopping-list {
     display: flex;
@@ -74,16 +70,23 @@ h1 {
     cursor: pointer;
 }
 
-#shopping-list > li:hover {
-    transition: all 0.2s ease-out 100ms;
-    background-color: #bb5044;
-    color: #eeeeee;
-}
-
 #disclaimer {
     margin: 0px 0px 16px 0px;
 }
 
 .hidden {
     display: none;
+}
+
+@media screen and (min-width: 480px) {
+    #shopping-list > li:hover {
+        transition: all 0.2s ease-out 100ms;
+        background-color: #bb5044;
+        color: #eeeeee;
+    }
+
+    #add-button:hover {
+        transition: background-color 0.2s ease-out 100ms;
+        background-color: #df766a;
+    }
 }
